@@ -292,7 +292,6 @@ img {
 .footer-container {
   background: var(--NAVY-BLUE, #2e2f42);
   display: block;
-  flex-direction: column;
   height: 312px;
   width: 100%;
   padding-top: 100px;
