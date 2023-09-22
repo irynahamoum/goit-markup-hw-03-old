@@ -30,10 +30,15 @@ img {
 }
 
 .container {
-  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header-container {
@@ -42,6 +47,7 @@ img {
   flex-shrink: 0;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .header-nav {
@@ -136,7 +142,7 @@ img {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  padding-bottom: 48px;
   padding-top: 188px;
 }
 
@@ -161,8 +167,6 @@ img {
 
 .about-container {
   background: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .about-element {
@@ -189,8 +193,6 @@ img {
 
 .team-container {
   background: var(--CLOUD, #f4f4fd);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title {
@@ -242,8 +244,6 @@ img {
 
 .portfolio-container {
   background: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -265,6 +265,7 @@ img {
 .portfolio-card {
   background: var(--WHITE, #fff);
   width: calc((100%-24 * 2) / 3);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .portfolio-info {
