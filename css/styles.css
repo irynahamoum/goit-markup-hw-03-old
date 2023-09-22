@@ -122,35 +122,26 @@ img {
   background: var(--NAVY-BLUE, #2e2f42);
   width: 100%;
   height: 600px;
-  flex-shrink: 0;
-  margin:0 auto;
-   /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-/* 
-.baner-container {
+  margin: 0 auto;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-} */
+}
 
 .baner-title {
   text-align: center;
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  max-width: 496px;
-  max-height: 120px;
-  margin 0 auto;
+  margin-bottom: 48px;
   padding-top: 188px;
 }
 
 .baner-button {
-  background: var(--IRIS, #4d5ae5);
+  background: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
   font-weight: 500;
@@ -158,12 +149,9 @@ img {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-size: 16px;
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .baner-button:hover,
@@ -175,12 +163,11 @@ img {
   background: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 
-.about-element{
+.about-element {
   display: flex;
-  width: calc((100%-24*3)/4);
+  width: calc((100%-24 * 3) / 4);
   gap: 24px;
 }
 
@@ -193,7 +180,6 @@ img {
   padding-bottom: 4px;
 }
 
-
 .about-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -204,7 +190,7 @@ img {
 .team-container {
   background: var(--CLOUD, #f4f4fd);
   padding-top: 120px;
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -270,7 +256,7 @@ img {
   text-transform: capitalize;
 }
 
-.portfolio-card-list{
+.portfolio-card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
@@ -278,14 +264,13 @@ img {
 
 .portfolio-card {
   background: var(--WHITE, #fff);
-  width: calc((100%-24*2)/3);
-  
+  width: calc((100%-24 * 2) / 3);
 }
 
-.portfolio-info{
-padding-top: 32px;
-padding-bottom: 32px;
-gap: 4px;
+.portfolio-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 4px;
 }
 
 .portfolio-card-title {
@@ -305,6 +290,12 @@ gap: 4px;
 
 .footer-container {
   background: var(--NAVY-BLUE, #2e2f42);
+  display: flex;
+  flex-direction: column;
+  height: 312px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -323,8 +314,11 @@ gap: 4px;
 }
 
 .footer-text {
+  padding-top: 18px;
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
 }
